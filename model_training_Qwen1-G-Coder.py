@@ -17,7 +17,7 @@ from liger_kernel.transformers import apply_liger_kernel_to_qwen2
 # 0. Configuration and hyperparameters
 # ==============================================================================
 MODEL_NAME_OR_PATH = "./base_model/Qwen2.5-Coder-7B-Instruct"
-DATASET_PATH = "final_dataset/"
+DATASET_PATH = "dataset/"
 OUTPUT_DIR = "gcode-generator-Qwen1-G-Coder"
 WANDB_PROJECT = "gcode-generator"
 
