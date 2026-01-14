@@ -44,7 +44,7 @@ To generate a printable .gcode file, you must run the following three scripts in
 
 #### Step 1: Add Header and Footer
 
-Completes the G-code with machine start/end sequences.
+Complete the G-code with machine start/end sequences.
 
 ```bash
 python G-code-post-processing-complete.py
@@ -52,7 +52,7 @@ python G-code-post-processing-complete.py
 
 #### Step 2: Path Filling 
 
-Optimizes the single-layer path for closed loops.
+Optimize the single-layer path for closed loops.
 
 ```bash
 python G-code-post-processing-single_layer_filled.py
@@ -60,7 +60,7 @@ python G-code-post-processing-single_layer_filled.py
 
 #### Step 3: Multi-layer Stacking 
 
-Extrudes the 2D path into a 3D volume (e.g., 20 layers) to create the final printable file.
+Create the final printable file (e.g., 20 layers).
 
 ```bash
 python G-code-post-processing-multi_layers_printable.py
