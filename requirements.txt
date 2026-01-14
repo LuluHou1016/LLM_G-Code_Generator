@@ -1,0 +1,7 @@
+torch~=2.2.2
+datasets~=4.2.0
+transformers~=4.57.1
+peft~=0.17.1
+tqdm~=4.67.1
+numpy~=2.0.2
+shapely~=2.0.7
