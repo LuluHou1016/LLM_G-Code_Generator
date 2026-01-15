@@ -72,7 +72,7 @@ python G-code-post-processing-multi_layers_printable.py
 The dataset is located in the dataset/ directory. It contains 5,898 pairs of parametric gear designs (z, m, d) and their corresponding Ground Truth G-codes.
 
 
-## Directory Structure
+## 📂 Directory Structure
 
 ```text
 .
